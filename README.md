@@ -29,3 +29,10 @@ gcc -s poc.c -o exp
 运行结果：  
 获得root权限  
 ![image](https://github.com/HaleyWei/POC-available/blob/master/Image/pg4.PNG)  
+
+## CVE-2018-18955
+POC运行内核版本：4.15.x < 4.19.2  
+运行方式：./exploit.polkit.sh  
+运行结果：  
+获取root权限  
+![image](https://github.com/HaleyWei/POC-available/blob/master/Image/pg5.png)
